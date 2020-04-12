@@ -28,15 +28,15 @@ class PaginateProvider extends ServiceProvider {
 
     Request.macro('paginate', function () {
       const query = this.get()
-      const page = query.page || 1
+      let page = query.page || 1
       let limit = query.limit || 50
       
       if (limit > 100) { limit = 100 }
 
       if (page <= 0) { page = 1 }
 
-      const sort = query.sort || 'created_at'
-      const desc = query.desc === 'true' ? 'desc' : 'asc'
+      let sort = query.sort || 'created_at'
+      let desc = query.desc === 'true' ? 'desc' : 'asc'
 
       return { page, limit, sort, desc }
     })

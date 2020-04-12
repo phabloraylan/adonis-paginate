@@ -1,6 +1,6 @@
 {
   "name": "adonis-paginate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "providers/PaginateProvider",
   "repository": "git@github.com:phabloraylan/adonis-paginate.git",
   "author": "phabloraylan <phabloraylan@gmail.com>",
