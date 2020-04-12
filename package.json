@@ -1,0 +1,8 @@
+{
+  "name": "adonis-paginate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:phabloraylan/adonis-paginate.git",
+  "author": "phabloraylan <phabloraylan@gmail.com>",
+  "license": "MIT"
+}
